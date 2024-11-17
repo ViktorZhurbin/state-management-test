@@ -1,0 +1,9 @@
+.item {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.item [data-status="completed"] {
+	text-decoration: line-through;
+}
